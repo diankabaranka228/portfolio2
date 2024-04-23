@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+ }
+body{
+    font-family: "Trirong", serif;
+     background-color: #112D4E;
+     color: #F9F7F7;
+     margin: 0;
+ }
+ .main{
+     display: flex;
+     align-items: center;
+     height: 80vh;
+ }
+img{
+    max-width: 100%;
+
+}
+.bar{
+    height: 50px;
+    width: calc(100%-100px);
+    margin: 20px 50px;
+    background-color: #3F72AF;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+ }
+ .logo{
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+.w50{
+    width: 50%;
+    text-align: center;
+}
+.link{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 30px;
+    color: #F9F7F7;
+}
+a{
+    color: #F9F7F7;
+    text-decoration: none;
+    background-color: #3F72AF;
+    padding: 11px 19px;
+    border-radius: 30px ;
+}
+a:hover{
+    background-color: #A6E3E9;
+    transition: 0.2s ;
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #F9F7F7;
+    border-radius: 30px;
+    color: black;
+}
+.scale {
+    transition: 1s; 
+    }
+    .scale:hover {
+    transform: scale(1.1); 
+    }
+.bebra{
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.bebra:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+
+
+.roman{
+    text-align: center;
+}
+#aboutme{
+    margin-top: 150px ;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center ;
+    height: 100 vh;
+}
+.card2{
+    width: 33% ;
+    padding: 15px ;
+    align-items: center;
+    
+}
+.line{
+    height: 10vh;
+    text-align: center;
+}
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background-color: #112D4E;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: linear-gradient(180deg, #F9F7F7, #3F72AF);
+}
+
+.html,.css,.java,.cpp,.python,.react {
+    display: flex;
+    align-items: center;
+}
+.htmltext {
+    margin-right:56px;
+}
+.csstext {
+    margin-right:74px;
+}
+.javatext {
+    margin-right:10px;
+}
+.pythontext {
+    margin-right: 20px;
+}
+.reacttext {
+    margin-right: 33px;
+}
+.cpptext {
+    margin-right: 50px;
+}
+.skills {
+    height: 80vh;
+}
+.yaziki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yaziki div{
+    margin: 45px;
+}
+.yaziki img {
+    width: 30px;
+}
+.yaziki p {
+    font-size:25px;
+}
+.textcenter{
+    text-align: center;
+}
+.cartochka{
+    width: 500px;
+    background-color: #DAC0A3;
+    padding: 50px ;
+    border-radius: 30px;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 500px;
+    display: block;
+    margin: 0 150px;
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.w80{
+    width: 80%;
+}
+#contactme{
+    padding: 50px;
+    color: #F9F7F7;
+    background-color: #112D4E;
+    position: relative;
+    z-index: 3;
+}
+.m50{
+    margin: 50px;
+}
+input{
+    display: block;
+    margin: 30px 0;
+    width: 75%;
+    height: 30px;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+}
+.projects {
+    height: 270vh;
+    width: 100%;
+}
+.projectstext {
+    position: absolute;
+    font-size:40px;
+    width: 900px;
+    margin: 50px 0px 0px 900px;
+}
+.haha {
+    display: flex;
+}
+.block1 {
+    width: 50%;
+    height: 100vh+150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.block2 {
+    width: 50%;
+    height: 100vh;
+    padding:150px 0px 0px 80px;
+}
+.block1 img {
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    border:2px solid #F9F7F7;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.block2 img {
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    border:2px solid #F9F7F7;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.block1 h1 {
+    font-size:30px;
+}
+.block1 p{
+    font-size: 20px;
+    width:600px;
+}
+.block2 h1{
+    font-size:30px;
+}
+.block2 p{
+    font-size: 20px;
+    width:600px;
+}
+.restorantext1 {
+    margin: 20px 0px 10px 90px;
+}
+.medium1text1 {
+    margin: 20px 0px 10px 140px;
+}
+.medium1text2 {
+    margin: 0px 0px 0px 30px;
+}
+.medium2text1 {
+    margin-top:20px;
+}
